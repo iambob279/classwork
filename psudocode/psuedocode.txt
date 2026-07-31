@@ -1,0 +1,16 @@
+perkg = 10
+weight = input("What is the weight of the luggage? = ")
+
+procedure price(weight)
+    if weight >= 50
+        print("Error: Your luggage is too heavy")
+    elseif weight >= 25
+        amount = weight - 25
+        total = amount * perkg
+        print("You must pay £" total " due to it being over 25 kg!")
+    else:
+        print("you do not have to pay extra for your luggage!")
+    endif
+    end procedure
+
+procedure price(weight)

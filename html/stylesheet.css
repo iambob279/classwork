@@ -1,0 +1,51 @@
+h1 
+{
+    font-family: Verdana;
+    font-size: medium;
+    color: #039;
+    background-color: #99CCFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #039;
+    width: 50%;
+    height: 20px;
+}
+
+#page 
+{
+    max-width:800px;
+    margin: 20px auto;
+    padding: 30px;	
+    background-color: #bfa475;
+}
+
+#header /* Styles for Heading */
+{
+	padding: 5px;
+	background-color: #655035;
+	text-align: center;
+}
+
+#right-column 
+{
+	float: right;	
+	width: 350px;
+ 	text-align: left;
+}
+
+
+img
+{
+	border: double 10px white;
+}
+
+.list
+{
+    color: #333300;
+}
+
+#right-column h2 
+{
+    font-size: 1.2rem; 
+    font-weight: bold;
+}

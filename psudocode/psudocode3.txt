@@ -1,0 +1,17 @@
+vote = ""
+Acount = 0
+Bcount = 0
+Ccount = 0
+
+while vote == "END"
+    vote = input("Who do you vote for?").lower()
+    if vote == "a" then
+        Acount = Acount + 1
+    elseif vote == "b" then
+        Bcount = Bcount + 1
+    elseif vote == "c" then
+        Ccount = Ccount + 1
+    else
+        print("Error, no canidate found")
+
+print("The votes are\nA:" Acount "B:" Bcount "C:" Ccount)

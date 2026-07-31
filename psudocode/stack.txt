@@ -1,0 +1,9 @@
+stack = []
+userinput = ""
+start = ""
+end = ""
+
+userinput = input("Please enter a value = ")
+
+private function add(userinput):
+    

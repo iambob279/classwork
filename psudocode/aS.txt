@@ -1,0 +1,4 @@
+A = input("First number = ")
+B = input("second number = ")
+Rem = A mod B
+print(Rem)

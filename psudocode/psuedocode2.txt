@@ -1,0 +1,15 @@
+code = input("enter your tracking code").lower()
+
+procedure track(code)
+    length = code.length
+    start = code.substring(0, 1)
+    if length > 8 then
+        return ("invalid")
+    elseif start == "P" or "q" then
+        return ("valid")
+    else
+        return ("Invalid")
+    endif
+    end procedure
+
+print(procedure track(code))

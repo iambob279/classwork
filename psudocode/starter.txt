@@ -1,0 +1,12 @@
+A = input("What is this value? = ")
+B = input("What is this value? = ")
+
+procedure compare(A, B)
+    if A == B then
+        return("A and B are the same value")
+    elseif A > B then
+        return("A is bigger than B)
+    else 
+        return("B is bigger than A")
+
+print(compare(A, B))

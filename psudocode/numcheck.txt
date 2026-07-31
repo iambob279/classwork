@@ -1,0 +1,9 @@
+A = input("What is the first number = ")
+B = input("What is the second number = ")
+
+if A = B then
+    print("These numbers are the same")
+elseif A > B then
+    print("A is bigger than B")
+else 
+    print("B is bigger than A)

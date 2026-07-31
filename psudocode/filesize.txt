@@ -1,0 +1,15 @@
+function filesize(pixels, framesPerSec, lengthMins) 
+    filesize = (pixels * framesPerSec * length) * 0.0013
+    if filesize > 1000 then 
+        filesize = filesize / 1000
+        filesize = string(filesize) + "GB"
+    else
+        filesize = string(filesize) + "MB"
+    return filesize
+
+pixels = input("What is the resolution? = ")
+framesPerSec = input("What is the frame rate? = ")
+lengthMins = input("How long is it? = ")
+
+print("The file size is ", filesize(pixels, framesPerSec, lengthMins))
+
